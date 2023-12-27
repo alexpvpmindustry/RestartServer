@@ -35,7 +35,7 @@ packr-out/
 config/
 *.gif
 
-gradle/
+gradle/test_Server
 
 version.properties
 
