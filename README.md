@@ -1,6 +1,6 @@
 ### auto restart plugin (for sandbox)
 
-a christmas present from alex to the public
+a christmas present to the public servers.
 
 this is to prevent lag machines from hogging the server resources in sandbox.
 
@@ -10,3 +10,4 @@ This 30mins is calculated on a rolling basis, so there must be no players in the
 
 ALSO, here is a piece of coal for all the server griefers.
 
+![image](https://github.com/alexpvpmindustry/RestartServer/assets/67626131/76585ede-b671-4d61-896c-c46da9204a74)
