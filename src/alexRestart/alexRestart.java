@@ -29,7 +29,7 @@ public class alexRestart extends Plugin {
                 current_players.getAndIncrement();
             });
             array_for_checking[counter] = current_players.get();
-            Log.info("counter "+counter+" curr num players: "+current_players.get());
+            //Log.info("counter "+counter+" curr num players: "+current_players.get());
             counter++;
             if (counter>=array_for_checking.length){
                 counter=0;
@@ -39,7 +39,7 @@ public class alexRestart extends Plugin {
                 totalNumberOfPlayers = totalNumberOfPlayers + j;
             }
             if(totalNumberOfPlayers==0){
-                Log.info("no players found, sending game over event");
+                Log.info("no players found for 30mins, sending gameover event");
                 array_for_checking = new int[]{1, 1, 1, 1, 1, 1};
                 Events.fire(new EventType.GameOverEvent(Team.crux));
             }
