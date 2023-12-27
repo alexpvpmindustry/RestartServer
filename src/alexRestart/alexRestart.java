@@ -11,6 +11,7 @@ import mindustry.mod.Plugin;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
+@SuppressWarnings("unused")
 public class alexRestart extends Plugin {
     public int checkInterval = 5*60; // 5 mins
     public int[] array_for_checking = new int[]{1, 1, 1, 1, 1, 1};
@@ -25,9 +26,7 @@ public class alexRestart extends Plugin {
             // checks the number of players in the server,
             // if empty for longer than 30mins, send gameover command
             AtomicInteger current_players = new AtomicInteger(0);
-            Groups.player.each(p -> p.con != null,p->{
-                current_players.getAndIncrement();
-            });
+            Groups.player.each(p -> p.con != null,p-> current_players.getAndIncrement());
             array_for_checking[counter] = current_players.get();
             //Log.info("counter "+counter+" curr num players: "+current_players.get());
             counter++;
