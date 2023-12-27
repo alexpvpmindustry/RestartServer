@@ -1,5 +1,5 @@
 {
-  "name": "AlexSandboxRestartPlugin",
+  "name": "alexRestart",
   "author": "Alex",
   "main": "alexRestart.alexRestart",
   "description": "Restarts sandbox whenever there are no players for more than 30mins ( rolling window). This prevent lag machines from lagging the server till no players are able to join.",
