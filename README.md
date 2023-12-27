@@ -1,5 +1,8 @@
 ### auto restart plugin (for sandbox)
 
+![autorestart](https://github.com/alexpvpmindustry/RestartServer/assets/67626131/4a87d2ce-dc09-4d5d-8ba0-c87e51c7f741)
+
+
 a christmas present to the public servers.
 
 this is to prevent lag machines from hogging the server resources in sandbox.
